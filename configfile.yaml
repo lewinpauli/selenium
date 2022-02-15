@@ -1,0 +1,47 @@
+#put this configfile in the same directory like the selenium.py and the pdftest.pdf
+
+container_environment: #will be selected if OS = Linux. This settings will be used if the programm is started in the Container. Only do changes here if you know what you are doing
+    chromedriver_location: /usr/bin/chromedriver
+    chrome_location: /usr/bin/google-chrome-stable
+    pdftest_location: /home/seluser/pdftest.pdf #absolute path needed
+    logfile_location: ./logfile.log
+    website_url: https://localhost:9082
+    logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info will appear, debug is recommended
+    headless: yes #starting browser headless/without UI "yes" or "no". !!!! Default is yes and its needed to work in the container !!!
+    close_chrome_at_the_end: yes #!!! Default is yes and its needed to work in the container !!! 
+
+
+darwin_environment: #will be selected if OS = MacOS
+    chromedriver_location: /????/????/chromedriver?
+    chrome_location: /????/????/google-chrome-stable?
+    pdftest_location: /?????/????/pdftest.pdf #absolute path needed
+    logfile_location: ./logfile.log
+    website_url: https://localhost:9082
+    logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info, debug is recommended
+    headless: no #starting browser headless/without UI "yes" or "no"
+    close_chrome_at_the_end: no 
+
+
+windows_environment: #will be selected if OS = Windows
+    chromedriver_location: \????\chromedriver.exe
+    chrome_location: \????\chrome.exe
+    pdftest_location: \????\pdftest.pdf #absolute path needed
+    logfile_location: \????\logfile.log
+    website_url: https://localhost:9082
+    logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info, debug is recommended
+    headless: no #starting browser headless/without UI "yes" or "no"
+    close_chrome_at_the_end: yes
+
+
+superadmin:
+    mail: someone@mail.com
+    password: XXXXXXXXX
+
+
+testuser:
+    mail: testuser@mail.com
+    password: testpassword
+    phone: "+1234567890"
+    name: test
+    registrationnr: "123456"
+    
