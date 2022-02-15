@@ -8,3 +8,7 @@ When the test is started, logs will be  created depending on your configured log
 
 If you want to run the script locally outside of an container make shure to have docker, python, chrome, chromedriver and the python modules: selenium and pyyaml installed
 (the dependencies will otherwise be automatically installed within the docker container)
+
+My goal was it to write the script as universal as possible so you can edit it for your website
+
+I also recommend to take a look at seleniumbase and the browser-extension katalon. With this you can record your own website behaviour and import it in seleniumbase, but for my usecase the website was not compatible
