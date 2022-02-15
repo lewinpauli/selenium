@@ -32,12 +32,13 @@ windows_environment: #will be selected if OS = Windows
     headless: no #starting browser headless/without UI "yes" or "no"
     close_chrome_at_the_end: yes
 
-
+#this will be used to log in the first time into the website
 superadmin:
     mail: someone@mail.com
     password: XXXXXXXXX
 
-#In my usecase these credentials where deleted automatically because the website itself was also started in docker swarm and will lose its changes after an reboot
+#In my usecase these credentials where deleted automatically after the test, because the website itself was also started in docker swarm and will lose its changes after an reboot
+#These are the credentials for the new test user
 testuser:
     mail: testuser@mail.com
     password: testpassword
