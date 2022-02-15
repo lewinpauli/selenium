@@ -5,7 +5,7 @@ container_environment: #will be selected if OS = Linux. This settings will be us
     chrome_location: /usr/bin/google-chrome-stable
     pdftest_location: /home/seluser/pdftest.pdf #absolute path needed
     logfile_location: ./logfile.log
-    website_url: https://localhost:9082
+    website_url: https://????
     logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info will appear, debug is recommended
     headless: yes #starting browser headless/without UI "yes" or "no". !!!! Default is yes and its needed to work in the container !!!
     close_chrome_at_the_end: yes #!!! Default is yes and its needed to work in the container !!! 
@@ -16,7 +16,7 @@ darwin_environment: #will be selected if OS = MacOS
     chrome_location: /????/????/google-chrome-stable?
     pdftest_location: /?????/????/pdftest.pdf #absolute path needed
     logfile_location: ./logfile.log
-    website_url: https://localhost:9082
+    website_url: https://????
     logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info, debug is recommended
     headless: no #starting browser headless/without UI "yes" or "no"
     close_chrome_at_the_end: no 
@@ -27,7 +27,7 @@ windows_environment: #will be selected if OS = Windows
     chrome_location: \????\chrome.exe
     pdftest_location: \????\pdftest.pdf #absolute path needed
     logfile_location: \????\logfile.log
-    website_url: https://localhost:9082
+    website_url: https://????
     logging_level: debug  # debug > info > warning > error > critical #probably only logs with debug and info, debug is recommended
     headless: no #starting browser headless/without UI "yes" or "no"
     close_chrome_at_the_end: yes
@@ -37,7 +37,7 @@ superadmin:
     mail: someone@mail.com
     password: XXXXXXXXX
 
-
+#In my usecase these credentials where deleted automatically because the website itself was also started in docker swarm and will lose its changes after an reboot
 testuser:
     mail: testuser@mail.com
     password: testpassword
