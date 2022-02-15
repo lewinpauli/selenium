@@ -1,0 +1,53 @@
+2021-10-27 10:54:52,364 INFO     ################
+2021-10-27 10:54:52,365 INFO     ################
+2021-10-27 10:54:52,366 INFO     ################
+2021-10-27 10:54:52,366 INFO     starting new website test with selenium
+2021-10-27 10:54:52,366 INFO     ################
+2021-10-27 10:54:52,367 INFO     current configfile:
+2021-10-27 10:54:52,367 INFO     {'container_environment': {'chromedriver_location': '/usr/bin/chromium-browser/chromedriver', 'chrome_location': '/usr/bin/chromium-browser', 'pdftest_location': '/home/ubuntu/pdftest.pdf', 'logfile_location': './logfile.log', 'website_url': 'https://localhost:9082', 'logging_level': 'debug', 'headless': True, 'close_chrome_at_the_end': True}, 'darwin_environment': {'chromedriver_location': '/usr/bin/chromedriver', 'chrome_location': '/usr/bin/google-chrome-stable', 'pdftest_location': '/home/ubuntu/pdftest.pdf', 'logfile_location': './logfile.log', 'website_url': 'https://localhost:9082', 'logging_level': 'debug', 'headless': False, 'close_chrome_at_the_end': False}, 'windows_environment': {'chromedriver_location': '/chromedriver.exe', 'chrome_location': '/chrome.exe', 'pdftest_location': '/pdftest.pdf', 'logfile_location': '/logfile.log', 'website_url': 'https://localhost:9082', 'logging_level': 'info', 'headless': False, 'close_chrome_at_the_end': False}, 'superadmin': {'mail': 'superadmin@mail.com', 'password': 'XXXXXXX'}, 'testuser': {'mail': 'testuserselenium@mail.com', 'password': 'testpasswordselenium', 'phone': '+391234567890', 'name': 'test', 'registrationnr': '123456'}}
+2021-10-27 10:54:52,536 INFO     found element with ID login_user and entered the text: superadmin@mail.com successfully
+2021-10-27 10:54:52,623 INFO     found element with ID login_pwd and entered the text: XXXXXXX successfully
+2021-10-27 10:54:58,786 INFO     found element with class login__submit and entered it successfully
+2021-10-27 10:54:58,786 INFO     superadmin login successful
+2021-10-27 10:55:00,769 INFO     found element with url /dashboard and entered it successfully
+2021-10-27 10:55:03,587 INFO     found element with url /roles/index and entered it successfully
+2021-10-27 10:55:05,408 INFO     found element with url /configurations/index and entered it successfully
+2021-10-27 10:55:06,894 INFO     found element with url /cloudsight/index and entered it successfully
+2021-10-27 10:55:08,423 INFO     found element with url /resources/index and entered it successfully
+2021-10-27 10:55:08,423 INFO     text \ue007 = Enter Button
+2021-10-27 10:55:08,511 INFO     found element with ID userDropdown and entered the text: \ue007 successfully
+2021-10-27 10:55:10,121 INFO     found element with linktext Account info and entered it successfully
+2021-10-27 10:55:10,202 INFO     found element with ID userDropdown and entered the text: \ue007 successfully
+2021-10-27 10:55:12,706 INFO     found element with linktext Edit password and entered it successfully
+2021-10-27 10:55:12,706 INFO     creating test account...
+2021-10-27 10:55:14,875 INFO     found element with url /users/staff and entered it successfully
+2021-10-27 10:55:16,648 INFO     found element with url /users/staff_edit and entered it successfully
+2021-10-27 10:55:16,822 INFO     found element with name row[username] and entered the text 'testuserselenium@mail.com' successfully
+2021-10-27 10:55:18,315 INFO     found element with ID userPassword and entered the text: testpasswordselenium successfully
+2021-10-27 10:55:18,432 INFO     found element with ID check_changepassword and clicked it successfully
+2021-10-27 10:55:18,609 INFO     found dropdownname row[roles][] and selected Superadmin successfully
+2021-10-27 10:55:18,759 INFO     found element with name row[code] and entered the text '123456' successfully
+2021-10-27 10:55:19,943 INFO     found element with name row[tel_int] and entered the text '+391234567890' successfully
+2021-10-27 10:55:20,074 INFO     found element with name row[name] and entered the text 'test' successfully
+2021-10-27 10:55:20,164 INFO     found element with name row[surname] and entered the text 'test' successfully
+2021-10-27 10:55:20,347 INFO     found element with name row[tel] and entered the text '+391234567890' successfully
+2021-10-27 10:55:20,554 INFO     found element with name row[email] and entered the text 'testuserselenium@mail.com' successfully
+2021-10-27 10:55:30,830 INFO     Sucessfully found type submit and entered input: \ue007
+2021-10-27 10:55:30,830 INFO     logging out to test the new user account
+2021-10-27 10:55:31,859 INFO     found element with ID userDropdown and entered the text: \ue007 successfully
+2021-10-27 10:55:34,812 INFO     found element with linktext Logout and entered it successfully
+2021-10-27 10:55:35,011 INFO     found element with ID login_user and entered the text: testuserselenium@mail.com successfully
+2021-10-27 10:55:35,186 INFO     found element with ID login_pwd and entered the text: testpasswordselenium successfully
+2021-10-27 10:55:39,406 INFO     found element with class login__submit and entered it successfully
+2021-10-27 10:55:42,379 INFO     found element with url /resources/index and entered it successfully
+2021-10-27 10:55:42,379 INFO     testuser login successful
+2021-10-27 10:55:42,379 INFO     trying to upload test resource/file
+2021-10-27 10:55:43,934 INFO     found element with url /resources/index and entered it successfully
+2021-10-27 10:55:45,447 INFO     found element with url /resources/edit and entered it successfully
+2021-10-27 10:55:45,526 INFO     found input element and uploaded file \pdftest.pdf successfully
+2021-10-27 10:55:45,678 INFO     found dropdownname row[roles][] and selected Superadmin successfully
+2021-10-27 10:55:45,838 INFO     found dropdownname row[users][] and selected test test successfully
+2021-10-27 10:55:45,947 INFO     found element with ID btn_upload and entered the text: \ue007 successfully
+2021-10-27 10:55:45,989 INFO     Sucessfully found pdftest.pdf
+2021-10-27 10:55:45,990 INFO     uploaded test resource/file successfully
+2021-10-27 10:55:45,990 INFO     selenium test finished successfully
