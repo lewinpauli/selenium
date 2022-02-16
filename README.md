@@ -1,6 +1,6 @@
 This is a website test, written in python and the webtesting framework selenium, created by Lewin Pauli.
 
-The goal for this test was to work in docker and docker swarm, next to the website container itself, and will be started when changes will be pushed into git/ CI/CD Pipeline.
+The goal for this test was to work in docker and docker swarm, next to the website container itself, so the test will automatically be started by a CI/CD pipeline if changes in git have been made.
 
 Here a video on how to get started on windows with python & selenium: https://www.youtube.com/watch?v=0Q86-g1lTkY
 
