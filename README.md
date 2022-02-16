@@ -1,4 +1,4 @@
-This is a website test written in python and the webtesting framework selenium.
+This is a website test, written in python and the webtesting framework selenium, created by Lewin Pauli.
 
 The goal for this test was to work in docker and docker swarm, next to the website container itself.
 
