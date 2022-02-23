@@ -2,6 +2,8 @@ This is a website test, written in python and the webtesting framework selenium,
 
 The goal for this test was to work in docker and docker swarm, next to the website container itself, so the test will automatically be started by a CI/CD pipeline if changes in git have been made.
 
+You can take the code and change it in the way you need
+
 Here a video on how to get started on windows with python & selenium: https://www.youtube.com/watch?v=0Q86-g1lTkY
 
 This test will try the following steps:
